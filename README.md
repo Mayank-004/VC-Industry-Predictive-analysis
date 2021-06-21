@@ -1,4 +1,4 @@
-Introduction:
+#Introduction:
 
 This project contains an analysis for the Venture Captalist industry on the basis of identified features.
 This project is done for a Venture Fund investing in pre-IPO technology startups who have reached or are poised to reach Unicorn status.
@@ -7,14 +7,14 @@ This project appeared of the need of VC Funds to have a full analytical analysis
 There we three datasets provided containing data from 2015 to 2020 years.
 
 
-Specific Goals:
+#Specific Goals:
 
 1.	To develop analytics around the Software-DevOps sector based on historical VC deals and Exits from 2015 to 2021.
 2.	Given the target investment company's specific characteristics, build applicable predictive models for critical metrics using the datasets provided.
 3.	Validate the Outcomes above in comparison or as complementary to the existing expert-driven due diligence and investment process.
 
 
-Hypothesis:
+#Hypothesis:
 
 According to our analysis objectives, our group has two assumptions.
 First, whether the average target variable is consistent with the number of model variables this time; 
@@ -22,7 +22,7 @@ second, the factors that show a strong correlation among the variables may be Ex
 The factors that show a weak relationship may be MOIC and %Preferred Capital Raised.
 
 
-Scope of the project:
+#Scope of the project:
 
 I.	A predictive model for the estimated ROI of each company.
 II.	A Machine Learning algorithm to filter the possible future investments.
@@ -30,7 +30,7 @@ III.	An interactive User Interface (Dashboard) to show startups prompts in real-
 IV.	A conclusion to summarize the outcomes from EDA.
 
 
-Data & Sources:
+#Data & Sources:
 
 In this project, relevant data obtained in three datasets: VC deals(transactions), VC-backed exits, and investor returns by series.
 1.	The VC deals(transactions) dataset contains updated data from 2015 to 2020 in Software-DevOps companies. It has 2184 records and 55 columns.
@@ -38,7 +38,7 @@ In this project, relevant data obtained in three datasets: VC deals(transactions
 3.	The investor returns by series dataset contain the updated data about investor returns from 2015 to 2020. This dataset has 245 rows and ten features.
 
 
-•	Features Engineering
+#Features Engineering
 
 
 Generally, there are three types of features engineering in this project:
@@ -47,7 +47,7 @@ Generally, there are three types of features engineering in this project:
 3.	Transform. For numeric features they may be Standardized if necessary. For category features, they will be transformed into dummy variables before adding to models.
 
 
-•	Model selection
+#Model selection
 
 We will merge the VC deals(transactions) dataset and the backed exits dataset by “Company PBID” after data cleansing to build prediction models.
 The merged dataset is the training set, and the rest records in the VC deals(transactions) dataset should be the testing set.
@@ -56,7 +56,7 @@ The model candidates are linear regression, polynomial regression, stepwise regr
 Before training models, we will implement the grid search process to find the best parameters for each model.
 
 
-Conclusion
+#Conclusion
 
 In this research paper an analysis of VC Fund were conducted using datasets provided. Data was cleaned and 
 preformed Exploratory Data Analysis (EDA) which includes checking distribution of dataset, correlation among 
